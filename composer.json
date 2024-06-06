@@ -1,0 +1,12 @@
+{
+    "name": "senac/teste-email",
+    "description": "Aula sobre como enviar emails",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Senac\\TesteEmail\\": "src/"
+        }
+    }
+}
